@@ -18,9 +18,9 @@ Other assets used:
 - Clone the repository with `git clone`
 - Create database by `mysql -u root -p`
 - Copy `.env.example` file to `.env` and configure database credentials there
+- Run `composer update`
 - Run `php artisan key:generate`
 - Run `php artisan config:cache`
-- Run `composer update`
 - Run `php artisan migrate --seed` (it has some seeded data for your testing)
 - That's it: launch the main URL. 
 - You can login to admin panel with default credentials;
