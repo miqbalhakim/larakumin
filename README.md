@@ -1,12 +1,10 @@
-# Laravel 6 Appointments System demo
+# Laravel 6 Appointments System with Roles and Permissions Management
 
 Simple project to manage appointments for companies like beauty salon, medical clinic or car repair shop. You can manage your Services, Employees, Clients and Appointments, viewing them in a calendar.
 
 ![Laravel Appointments calendar](https://laraveldaily.com/wp-content/uploads/2019/09/laravel-appointments-calendar.png)
 
 ![Laravel Appointments form](https://laraveldaily.com/wp-content/uploads/2019/09/laravel-appointments-form.png)
-
----
 
 System is mostly generated with [QuickAdminPanel](https://2019.quickadminpanel.com), with some small tweaks afterwards.
 
@@ -17,18 +15,18 @@ Other assets used:
 
 ## How to use
 
-- Clone the repository with __git clone__
-- Create database by __mysql -u root -p__
-- Copy __.env.example__ file to __.env__ and configure database credentials there
-- Run __php artisan key:generate__
-- Run __php artisan config:cache__
-- Run __composer update__
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
+- Clone the repository with `git clone`
+- Create database by `mysql -u root -p`
+- Copy `.env.example` file to `.env` and configure database credentials there
+- Run `php artisan key:generate`
+- Run `php artisan config:cache`
+- Run `composer update`
+- Run `php artisan migrate --seed` (it has some seeded data for your testing)
 - That's it: launch the main URL. 
 - You can login to admin panel with default credentials;
-    - __admin@admin.com__ - __password__
-    - __user@user.com__ - __password__
-    - __registrar@registrar.com__ - __password__
+    - `admin@admin.com` - `password`
+    - `user@user.com` - `password`
+    - `registrar@registrar.com` - `password`
 
 ## License
 
